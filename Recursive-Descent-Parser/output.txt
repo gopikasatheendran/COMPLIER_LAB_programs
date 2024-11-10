@@ -1,0 +1,32 @@
+./a.out 
+enter the string
+sum+diff
+
+input     action
+-------------------------
+sum+diff          E->TE'
+sum+diff          T->FT'
++diff            F->identifier'
++diff            T'->$
++diff            E'->+TE'
+diff              T->FT'
+                 F->identifier'
+                 T'->$
+                 E'->$
+-------------------------
+successfully parsed
+
+
+/a.out
+enter the string
+s=a
+
+input     action
+-------------------------
+s=a               E->TE'
+s=a               T->FT'
+=a               F->identifier'
+=a               T'->$
+=a               E'->$
+error in parsing 
+

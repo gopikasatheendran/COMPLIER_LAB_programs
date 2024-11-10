@@ -1,0 +1,31 @@
+RECURSIVE DESCENT PARSING
+
+A recursive descent parser is a type of top-down parser that processes a grammar by using a set of recursive procedures, where each procedure corresponds to a non-terminal in the grammar. The parser starts from the top of the parse tree (the start symbol) and works its way down, breaking the input into components that match the grammar’s rules.
+
+In recursive descent parsing, each grammar rule is implemented as a function that can call itself or other functions based on the grammar’s structure. This makes it intuitive and straightforward, especially for grammars without left recursion.
+
+CONSIDER THE GRAMMAR:
+E  → TE′
+E′ → +TE′ | ε
+T  → FT′
+T′ → *FT′ | ε
+F  → (E) | id
+
+Each symbol in this grammar represents:
+
+    E: Expression
+    T: Term
+    F: Factor
+    E′, T′: Helpers for handling operators like + and * and for managing recursion in expressions and terms.
+
+RECURSIVE PROCEDURES FOR PARSING
+
+To parse this grammar using recursive descent parsing, we would create a function for each non-terminal (e.g., E, E', T, etc.). Here’s how each function might be structured:
+
+    E(): Matches an expression by calling T() and then E'().
+    E'(): Handles expressions that include the + operator by checking if + is next in the input. If + is found, it    matches T and then calls itself again.
+    T(): Matches a term by calling F() and then T'().
+    T'(): Handles terms with *, similar to how E'() handles +.
+    F(): Matches either a parenthesized expression (E) or an identifier id.
+
+Each function will call others as needed to break down the input according to the rules of the grammar.
