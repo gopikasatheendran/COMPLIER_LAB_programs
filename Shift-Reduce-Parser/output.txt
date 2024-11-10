@@ -1,0 +1,23 @@
+ubuntu@ubuntu-To-be-filled-by-O-E-M:~/Desktop/scs9455$ gcc shiftreduce.c
+ubuntu@ubuntu-To-be-filled-by-O-E-M:~/Desktop/scs9455$ ./a.out
+GRAMMAR:
+ E->E+E
+ E->E*E
+ E->(E)
+ E->id
+Enter input string: (id+id)*id
+stack 		input  	action
+$( 	      id+id)*id$	SHIFT
+$(id   	         +id)*id$	SHIFT
+$(E   	         +id)*id$  REDUCE
+$(E+    		id)*id$	SHIFT
+$(E+id      	)*id$	SHIFT
+$(E+E      	)*id$	REDUCE
+$(E      		)*id$	REDUCE
+$(E)       	*id$	SHIFT
+$E       		*id$	REDUCE
+$E*        	id$	SHIFT
+$E*id          	$	SHIFT
+$E*E          	$	REDUCE
+$E          	$	REDUCE
+Accept
