@@ -3,7 +3,7 @@
 This repository contains a collection of essential programs and tools implemented as part of a compiler design lab. The programs here cover various stages and components of a compiler, from lexical analysis to intermediate code generation, along with tools like Lex and Yacc for parsing and expression evaluation.
 
 ## Table of Contents
-1. [Lexical Analyzer](./lexicalanalyzer)
+1. [Lexical Analyzer](./lexical-analyzer)
 2. [Recursive Descent Parser](./Recursive-Descent-Parser)
 3. [Shift-Reduce Parser](./Shift-Reduce-Parser)
 4. [First and Follow Computation](./First-and-Follow)
