@@ -48,8 +48,8 @@ This section includes several programs demonstrating the use of **Lex** and **Ya
 
 
 
-Getting Started
+##Getting Started
 Each program in this repository is located in a separate folder with source code and any necessary input files. To execute each program, follow the instructions in its respective directory.
 Prerequisites
-    1. C/C++ Compiler
-    2. Lex and Yacc tools installed
+    ###1. C/C++ Compiler
+    ###2. Lex and Yacc tools installed
