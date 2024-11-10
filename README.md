@@ -1,16 +1,16 @@
-Compiler Lab Programs
+#Compiler Lab Programs
 
 This repository contains a collection of essential programs and tools implemented as part of a compiler design lab. The programs here cover various stages and components of a compiler, from lexical analysis to intermediate code generation, along with tools like Lex and Yacc for parsing and expression evaluation.
-Table of Contents
 
-    Lexical Analyzer
-    Recursive Descent Parser
-    Shift-Reduce Parser
-    First and Follow Computation
-    Operator Precedence Parser
-    Intermediate Code Generator
-    Backend Implementation of a Compiler
-    Lex and Yacc Programs
+## Table of Contents
+1. [Lexical Analyzer](./Lexical-Analyzer)
+2. [Recursive Descent Parser](./Recursive-Descent-Parser)
+3. [Shift-Reduce Parser](./Shift-Reduce-Parser)
+4. [First and Follow Computation](./First-and-Follow)
+5. [Operator Precedence Parser](./Operator-Precedence-Parser)
+6. [Intermediate Code Generator](./Intermediate-Code-Generator)
+7. [Backend Implementation of a Compiler](./Backend-Compiler)
+8. [Lex and Yacc Programs](./lex-and-yacc-programs)
 
 1. Lexical Analyzer
 A lexical analyzer (or lexer) processes an input source code string to identify tokens like keywords, operators, identifiers, and literals. This program helps convert the source code into tokens for further stages of compilation.
