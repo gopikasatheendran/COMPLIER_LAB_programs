@@ -1,0 +1,22 @@
+ubuntu@ubuntu-To-be-filled-by-O-E-M:~/Desktop/scs9455$ gcc firstfollow.c
+ubuntu@ubuntu-To-be-filled-by-O-E-M:~/Desktop/scs9455$ ./a.out
+Enter the no of productions:
+5
+Enter the productions:
+S=ABc
+A=aA
+A=b
+B=Ab
+B=b
+Enter the element whose first & follow is to be found:S
+First(S)={a b }
+Follow(S)={$ }
+Continue(0/1)?1
+Enter the element whose first & follow is to be found:A
+First(A)={a b }
+Follow(A)={a b  }
+Continue(0/1)?1
+Enter the element whose first & follow is to be found:B
+First(B)={a b }
+Follow(B)={c }
+Continue(0/1)?0
