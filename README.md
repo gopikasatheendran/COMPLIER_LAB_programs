@@ -40,11 +40,11 @@ This section includes several programs demonstrating the use of **Lex** and **Ya
 
    - **[Lexical Analyzer using Lex Tool](./lex-and-yacc-programs/Lexical-lex)**: Implements a lexical analyzer using Lex to tokenize the input.
    
-   - **[Arithmetic Expression Recognition](./Arithmetic-lex)**: Uses Lex and Yacc to identify and evaluate arithmetic expressions.
+   - **[Arithmetic Expression Recognition](./lex-and-yacc-programs/Arithmetic-lex)**: Uses Lex and Yacc to identify and evaluate arithmetic expressions.
    
-   - **[Identifier Validation](./identifier-lex-yacc)**: Checks for valid identifiers in the source code using Lex and Yacc.
+   - **[Identifier Validation](./lex-and-yacc-programs/identifier-lex-yacc)**: Checks for valid identifiers in the source code using Lex and Yacc.
    
-   - **[Calculator using Lex and Yacc](./Calculator)**: Implements a basic calculator that can evaluate arithmetic expressions, demonstrating the use of Lex for tokenizing and Yacc for parsing and evaluating expressions.
+   - **[Calculator using Lex and Yacc](./lex-and-yacc-programs/Calculator)**: Implements a basic calculator that can evaluate arithmetic expressions, demonstrating the use of Lex for tokenizing and Yacc for parsing and evaluating expressions.
 
 
 
