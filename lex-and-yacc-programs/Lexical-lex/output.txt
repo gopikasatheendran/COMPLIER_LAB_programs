@@ -1,0 +1,11 @@
+~$ lex lexical.l
+~$ cc lex.yy.c -ll
+~$ ./a.out
+56.89 abc ? 123 unknown *
+Float:56.89
+Identifier :abc
+unknown character:?
+Integer:123
+keyword :unknown
+unknown character:*
+

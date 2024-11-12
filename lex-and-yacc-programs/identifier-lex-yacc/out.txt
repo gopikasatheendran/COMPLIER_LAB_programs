@@ -1,0 +1,13 @@
+gopika@gopika-VirtualBox:~$ yacc -d id.y
+id.y:15 parser name defined to default :"parse"
+gopika@gopika-VirtualBox:~$ lex id.l
+gopika@gopika-VirtualBox:~$ gcc lex.yy.c y.tab.c -w
+gopika@gopika-VirtualBox:~$ ./a.out
+enter the name to be tested for identifier:abc
+its an identifier!gopika@gopika-VirtualBox:~$ ./a.out
+enter the name to be tested for identifier:5bc
+not an identifiergopika@gopika-VirtualBox:~$ ./a.out
+enter the name to be tested for identifier:ab6
+its an identifier!gopika@gopika-VirtualBox:~$ 
+
+

@@ -1,0 +1,10 @@
+gopika@gopika-VirtualBox:~$ lex arth.l
+gopika@gopika-VirtualBox:~$ yacc -d arth.y
+arth.y:20 parser name defined to default :"parse"
+gopika@gopika-VirtualBox:~$ gcc lex.yy.c y.tab.c -w 
+gopika@gopika-VirtualBox:~$ ./a.out
+enter the expression:a=b+c
+valid expression!gopika@gopika-VirtualBox:~$ ./a.out
+enter the expression:a=+b
+invalid expression
+
