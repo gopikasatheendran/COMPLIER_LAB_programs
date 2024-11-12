@@ -38,7 +38,7 @@ This module represents the backend of a compiler, including tasks like code opti
 ### 8. Lex and Yacc Programs
 This section includes several programs demonstrating the use of **Lex** and **Yacc** tools for lexical and syntax analysis:
 
-   - **[Lexical Analyzer using Lex Tool](./Lexical-lex)**: Implements a lexical analyzer using Lex to tokenize the input.
+   - **[Lexical Analyzer using Lex Tool](./lex-and-yacc-programs/Lexical-lex)**: Implements a lexical analyzer using Lex to tokenize the input.
    
    - **[Arithmetic Expression Recognition](./Arithmetic-lex)**: Uses Lex and Yacc to identify and evaluate arithmetic expressions.
    
